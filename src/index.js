@@ -1,4 +1,4 @@
-import { cors } from "cors";
+    const cors = require('cors');
 import { express } from "express";
 import { createPedido, deletePedido, readPedidos } from "./controllers/pedidos.js";
 import { createProduto, deleteProduto, readProdutoById, readProdutos, updateProduto } from "./controllers/produtos.js";
