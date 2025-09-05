@@ -1,3 +1,4 @@
+import { pool } from "./database.js";
 
 export const createProduto = async(req, res) => {
   try {
