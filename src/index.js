@@ -1,8 +1,8 @@
 import { cors } from "cors";
 import { express } from "express";
-import { createPedido, deletePedido, readPedidos } from "./controllers/pedidos";
-import { createProduto, deleteProduto, readProdutoById, readProdutos, updateProduto } from "./controllers/produtos";
-import { pool } from "./db";
+import { createPedido, deletePedido, readPedidos } from "./controllers/pedidos.js";
+import { createProduto, deleteProduto, readProdutoById, readProdutos, updateProduto } from "./controllers/produtos.js";
+import { pool } from "./database.js";
 
 const app = express();
 app.use(cors());
