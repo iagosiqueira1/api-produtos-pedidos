@@ -1,4 +1,4 @@
-import { pool } from "./database.js";
+import { pool } from "../database.js";
 export const createPedido = async(req, res) => {
   try {
       const { nome_cliente, telefone, cep, rua, bairro, numero, cidade, complemento, produtos } = req.body;
